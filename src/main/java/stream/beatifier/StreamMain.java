@@ -11,6 +11,28 @@ public class StreamMain {
         poemBeautifier.poemSubstring("poem",(poem) -> (poem));
 
 
+        //2 rozwiazanie
+        poemBeautifier.poemClassic("poem!", (poem) ->
+        {
+            String text = "ABC!: " + poem;
+            return (text);
+        });
+        poemBeautifier.poemClassic("poem!", (poem) ->
+        {
+            String text = poem.toUpperCase();
+            return (text);
+        });
+        poemBeautifier.poemClassic("POEM!", (poem) ->
+        {
+            String text = poem.toLowerCase();
+            return (text);
+        });
+        poemBeautifier.poemClassic("poem!", (poem) ->
+        {
+            String text = poem.substring(1);
+            return (text);
+        });
+
 
 
 

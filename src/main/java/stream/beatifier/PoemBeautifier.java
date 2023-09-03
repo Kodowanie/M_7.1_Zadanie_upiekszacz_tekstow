@@ -22,4 +22,10 @@ public class PoemBeautifier {
         System.out.println(text);
     }
 
+    public void poemClassic (String poem,PoemDecorator poemDecorator){
+//        String text = poem;
+//        System.out.println(text);
+        System.out.println(poemDecorator.text(poem));
+    }
+
 }
